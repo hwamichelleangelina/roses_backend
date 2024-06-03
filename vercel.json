@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "roses_backend/index.js",
+            "src": "./index.js",
             "use": "@vercel/node"
         }
     ],
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "roses_backend/"
+            "destination": "/"
         }
     ]
 }
