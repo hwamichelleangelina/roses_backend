@@ -1,3 +1,3 @@
-roses_server/node_modules/
-roses_server/package-lock.json
+roses_backend/node_modules/
+roses_backend/package-lock.json
 .vercel/
