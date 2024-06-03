@@ -1,15 +1,15 @@
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-    host: 'sql12.freemysqlhosting.net',
-    user: 'sql12711382',
-    password: 'Ltj2i51Dn6',
-    database: 'sql12711382'
+    host: 'bnnvvfczfcflefkm87u6-mysql.services.clever-cloud.com',
+    user: 'unyqvvq1inw6ii0c',
+    password: 'FHZiYOl3cz0cn65ldstf',
+    database: 'bnnvvfczfcflefkm87u6'
 });
 
 db.connect((err) => {
     if (err) throw err;
-    console.log('Connected to database Roses');
+    console.log('Connected to database The Rose');
 });
 
 module.exports = db;
