@@ -1,5 +1,5 @@
 {
-  "name": "roses_server",
+  "name": "roses_backend",
   "version": "1.0.0",
   "description": "A server for managing user authentication, messages, and roses data.",
   "main": "index.js",
